@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="soilproject.css">
-    <title>Your Website Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./images/soil.ico" type="image/x-icon">
+    <title>Save Soil</title>
 </head>
 
 
@@ -15,8 +17,10 @@
     <button class="login-signup-button" onclick="redirectToLoginSignup()">Login/Signup</button>
 
     <header>
-        <h1>Smart Soil Management</h1>
-        <img src="soil.jpg" alt="Soil Image"> <!-- Add the image tag here -->
+        <div class="image-container">
+        <img src="./images/soil.jpg" alt="Soil">
+        <h1 class="overlay-text"><span class="underline">Smart Soil Management</span> 🌱</h1>
+        </div>
         <p>Developing a Monitoring System for Enhanced Agricultural Efficiency</p>
     </header>
 
@@ -184,6 +188,6 @@
 
     
 
-    <script src="soilproject.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
